@@ -15,6 +15,6 @@ public class DemoApplication {
 
     @GetMapping("/")
     public String home() {
-        return "Hello from Jenkins → Docker → Kubernetes";
+        return "Hello from Jenkins → Docker → Kubernetes+automation process ";
     }
 }
